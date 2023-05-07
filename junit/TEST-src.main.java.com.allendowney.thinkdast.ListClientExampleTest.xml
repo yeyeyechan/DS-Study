@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="seoyechan-ui-MacBookPro.local" name="src.main.java.com.allendowney.thinkdast.ListClientExampleTest" skipped="0" tests="1" time="0.0" timestamp="2023-05-07T10:20:51">
+  <properties>
+    <property name="java.vendor" value="AdoptOpenJDK" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="env.XPC_SERVICE_NAME" value="application.com.jetbrains.intellij.ce.1584580.1585275" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/classes" />
+    <property name="env.TMPDIR" value="/var/folders/8s/j71gjh5s501bxr3b46lh6xxh0000gn/T/" />
+    <property name="env.PWD" value="/Users/seoyechan/IdeaProjects/JavaDataStructure" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="/Applications/IntelliJ IDEA CE.app/Contents/lib/ant" />
+    <property name="java.runtime.version" value="1.8.0_292-b10" />
+    <property name="user.name" value="seoyechan" />
+    <property name="env.USER" value="seoyechan" />
+    <property name="env.SHELL" value="/bin/zsh" />
+    <property name="env.__CF_USER_TEXT_ENCODING" value="0x1F5:0x3:0x33" />
+    <property name="env.PATH" value="/opt/homebrew/bin:/Library/Frameworks/Python.framework/Versions/3.11/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin" />
+    <property name="user.language" value="ko" />
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="env.XPC_FLAGS" value="0x0" />
+    <property name="ant.project.name" value="JavaDataStructure" />
+    <property name="env.LC_CTYPE" value="ko_KR.UTF-8" />
+    <property name="java.version" value="1.8.0_292" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/endorsed" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="KR" />
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.LOGNAME" value="seoyechan" />
+    <property name="ant.file" value="/Users/seoyechan/IdeaProjects/JavaDataStructure/build.xml" />
+    <property name="os.version" value="10.16" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="25.292-b10" />
+    <property name="ant.library.dir" value="/Applications/IntelliJ IDEA CE.app/Contents/lib/ant/lib" />
+    <property name="env.__CFBundleIdentifier" value="com.jetbrains.intellij.ce" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="env.JAVA_HOME" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home" />
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeBig" />
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit" />
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="user.home" value="/Users/seoyechan" />
+    <property name="target" value="1.7" />
+    <property name="env.OLDPWD" value="/" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="/Users/seoyechan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:." />
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/" />
+    <property name="java.vm.vendor" value="AdoptOpenJDK" />
+    <property name="gopherProxySet" value="false" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner src.main.java.com.allendowney.thinkdast.ListClientExampleTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/seoyechan/IdeaProjects/JavaDataStructure/junit/TEST-src.main.java.com.allendowney.thinkdast.ListClientExampleTest.xml crashfile=/Users/seoyechan/IdeaProjects/JavaDataStructure/junitvmwatcher2084806659860689203.properties propsfile=/Users/seoyechan/IdeaProjects/JavaDataStructure/junit9020342608294204692.properties" />
+    <property name="java.class.path" value="/Users/seoyechan/IdeaProjects/JavaDataStructure/out/production/JavaDataStructure:/Users/seoyechan/IdeaProjects/JavaDataStructure/lib/jedis-2.8.0.jar:/Users/seoyechan/IdeaProjects/JavaDataStructure/lib/jsoup-1.8.3.jar:/Users/seoyechan/IdeaProjects/JavaDataStructure/lib/junit-4.12.jar:/Users/seoyechan/IdeaProjects/JavaDataStructure/lib/hamcrest-core-1.3.jar:/Users/seoyechan/IdeaProjects/JavaDataStructure/lib/jcommon-1.0.23.jar:/Users/seoyechan/IdeaProjects/JavaDataStructure/lib/jfreechart-1.0.19.jar:/Users/seoyechan/IdeaProjects/JavaDataStructure/lib/servlet.jar:/Users/seoyechan/IdeaProjects/JavaDataStructure/lib/ant-junit.jar:/Users/seoyechan/IdeaProjects/JavaDataStructure/lib/commons-math3-3.6.jar:/Users/seoyechan/IdeaProjects/JavaDataStructure/lib/hamcrest-library-1.3.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.12 compiled on October 13 2021" />
+    <property name="ant.file.type.JavaDataStructure" value="file" />
+    <property name="env.JAVA_HOME_8" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home" />
+    <property name="ant.file.JavaDataStructure" value="/Users/seoyechan/IdeaProjects/JavaDataStructure/build.xml" />
+    <property name="env.JAVA_MAIN_CLASS_26201" value="com.intellij.rt.ant.execution.AntMain2" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="env.HOME" value="/Users/seoyechan" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.JAVA_HOME_16" value="/Library/Java/JavaVirtualMachines/adoptopenjdk-16.jdk/Contents/Home" />
+    <property name="java.io.tmpdir" value="/var/folders/8s/j71gjh5s501bxr3b46lh6xxh0000gn/T/" />
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues" />
+    <property name="env.SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.rYpIgtC7C2/Listeners" />
+    <property name="env.COMMAND_MODE" value="unix2003" />
+    <property name="os.arch" value="x86_64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment" />
+    <property name="java.ext.dirs" value="/Users/seoyechan/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
+    <property name="user.dir" value="/Users/seoyechan/IdeaProjects/JavaDataStructure" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="basedir" value="/Users/seoyechan/IdeaProjects/JavaDataStructure" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="/Applications/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant.jar" />
+    <property name="source" value="1.7" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="ant.project.invoked-targets" value="ListClientExampleTest" />
+  </properties>
+  <error message="src.main.java.com.allendowney.thinkdast.ListClientExampleTest" type="java.lang.ClassNotFoundException">java.lang.ClassNotFoundException: src.main.java.com.allendowney.thinkdast.ListClientExampleTest
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+</error>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
