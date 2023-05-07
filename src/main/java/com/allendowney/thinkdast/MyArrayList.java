@@ -15,13 +15,14 @@ public class MyArrayList<E> implements List<E> {
         if(size >= array.length){
             E[] newArray = (E[]) new Object[2*array.length];
             System.arraycopy(array, 0, newArray, 0, array.length);
+            array = newArray;
         }
         array[size] = element;
         size++;
         return true;
     }
     @Override
-    // 확인
+    // 확인인
     public boolean addAll(int index, Collection<? extends  E> c){
         int idx = index;
         for(E ele : c){
@@ -38,6 +39,17 @@ public class MyArrayList<E> implements List<E> {
             flag &= remove(ele);
         }
         return true;
+    }
+    public static void main(String[] args) {
+        // run a few simple tests
+        MyArrayList<Integer> mal = new MyArrayList<Integer>();
+        mal.add(1);
+        mal.add(2);
+        mal.add(3);
+        System.out.println(Arrays.toString(mal.toArray()) + " size = " + mal.size);
+
+        mal.remove(new Integer(2));
+        System.out.println(Arrays.toString(mal.toArray()) + " size = " + mal.size);
     }
 
     @Override
@@ -125,7 +137,7 @@ public class MyArrayList<E> implements List<E> {
 
     @Override
     public void add (int index, E element){
-        if(index <0 || index >=size){
+        if(index <0 || index >size){
             throw new IndexOutOfBoundsException();
         }
         add(element);
