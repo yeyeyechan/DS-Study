@@ -6,6 +6,7 @@ package com.allendowney.thinkdast;
 import java.util.ArrayList;
 
 import org.junit.Before;
+import org.junit.Test;
 
 
 /**
@@ -27,4 +28,5 @@ public class MyLinkedListTest extends MyArrayListTest {
         mylist = new MyLinkedList<Integer>();
         mylist.addAll(list);
     }
+
 }
